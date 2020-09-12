@@ -6,7 +6,7 @@ CREATE TABLE member (
 
 CREATE TABLE transaction (
 	state TEXT PRIMARY KEY,
-	txn_amt INT,
+	txn_amt DECIMAL
 	txn_cnt INT
 );
 
